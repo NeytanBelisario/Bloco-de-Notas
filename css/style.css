@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  header{
+    border-bottom: 1px solid #dc1b1b;
+    height: 10vh;
+    display:flex;
+    align-items: center;
+  }
+  
+  #logo img{
+    height: 8vh;
+    margin-left: 1vw;
+  }
+  #display{
+    width: 50vw;
+  }
+  
+  #user{
+    width: 20vw;
+  }
+  
+  main{
+    margin: 2vh 2vw;
+    min-height: 80vh;
+  }
+  
+  #notes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card a{
+    text-decoration: none;
+  }
+  
+  #modal-view{
+    border:1px solid #dc1b1b;
+    position: absolute;
+    display:none;
+    width: 90vw;
+    padding:10px;
+   
+  }
+  
+  #close-modal{
+    float:right;
+  }
+  
+  #modal{
+    border:1px solid #dc1b1b;
+    position: absolute;
+    padding:2vh 2vw;
+    display:none;
+    width: 90vw;
+  }
+  
+  #controls-note{
+    display:flex;
+    gap:10px;
+  }
+  a{
+    color: #dc1b1b;
+  }
+  a:hover{
+    color: #dc1b1b;
+  }
+  
