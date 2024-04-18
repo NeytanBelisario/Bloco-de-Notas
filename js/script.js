@@ -84,11 +84,13 @@ const listNotes = () => {
   listNotes.forEach((item) => {
     let divCard = document.createElement('div');
     divCard.className = 'card';
-    divCard.style.width = '18rem';
+    divCard.style.width = '20rem';
+    divCard.style.marginBottom = '20px'
     notes.appendChild(divCard);
 
     let divCardBody = document.createElement('div');
     divCardBody.className = 'card-Body'
+    divCardBody.style.marginLeft = '15px'
     divCard.appendChild(divCardBody);
 
     let h1 = document.createElement('h1');

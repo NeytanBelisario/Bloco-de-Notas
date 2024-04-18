@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    border-color: #dc1b1b !important;
   }
   
   header{
@@ -68,4 +69,5 @@
   a:hover{
     color: #dc1b1b;
   }
+  
   
